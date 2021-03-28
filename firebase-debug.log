@@ -1,0 +1,52 @@
+[debug] [2017-11-15T02:19:16.736Z] ----------------------------------------------------------------------
+[debug] [2017-11-15T02:19:16.739Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only functions
+[debug] [2017-11-15T02:19:16.739Z] CLI Version:   3.15.0
+[debug] [2017-11-15T02:19:16.739Z] Platform:      win32
+[debug] [2017-11-15T02:19:16.739Z] Node Version:  v6.11.3
+[debug] [2017-11-15T02:19:16.740Z] Time:          Tue Nov 14 2017 18:19:16 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-15T02:19:16.740Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-15T02:19:16.752Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-15T02:19:16.753Z] > authorizing via signed-in user
+[debug] [2017-11-15T02:19:16.755Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tabianconsulting-7278a  
+ Tue Nov 14 2017 18:19:16 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-15T02:19:17.216Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-15T02:19:17.218Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tabianconsulting-7278a/tokens  
+ Tue Nov 14 2017 18:19:17 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-15T02:19:17.753Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'tabianconsulting-7278a'...
+[info] 
+[info] i  deploying functions
+[debug] [2017-11-15T02:19:18.547Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~5.4.2",
+    "firebase-functions": "^0.7.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] [2017-11-15T02:19:18.557Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/tabianconsulting-7278a?view=CONSUMER_VIEW  
+ Tue Nov 14 2017 18:19:18 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-15T02:19:18.559Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/tabianconsulting-7278a?view=CONSUMER_VIEW  
+ Tue Nov 14 2017 18:19:18 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-15T02:19:19.247Z] <<< HTTP RESPONSE 200
+[info] +  runtimeconfig: all necessary APIs are enabled
+[debug] [2017-11-15T02:19:19.262Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2017-11-15T02:19:19.268Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/tabianconsulting-7278a  
+ Tue Nov 14 2017 18:19:19 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-15T02:19:19.270Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/tabianconsulting-7278a/apiKeys  
+ Tue Nov 14 2017 18:19:19 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-15T02:19:19.764Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-15T02:19:19.980Z] <<< HTTP RESPONSE 200
